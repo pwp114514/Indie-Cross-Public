@@ -62,10 +62,8 @@
 	<haxelib name="flixel-addons" />
 	<haxelib name="flixel-ui" />
 	<haxelib name="discord_rpc" if="desktop"/>
-    <haxelib name="tentools" />
 	<haxelib name="linc_luajit" if="desktop"/>
-	<haxelib name="systools" if="desktop"/>
-    <ndll name="systools" haxelib="systools" if="desktop" />
+	<haxelib name="extension-androidtools" if="android" />
 
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
